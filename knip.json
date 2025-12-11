@@ -1,0 +1,28 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "project": ["**/*.{ts,js}"],
+  "entry": [
+    "**/*.{config,cfg}.{ts,js}",
+    "src/main.ts",
+    "src/**/*-main.ts",
+    ".config/**/*.ts",
+    "playground/**/*.ts"
+  ],
+  "ignore": [
+    "node_modules",
+    "dist-jsr",
+    "dist-npm",
+    "dist-libs",
+    "playground/load.ts",
+    "playground/watch.ts",
+    "tests/types.ts",
+    "src/types.ts",
+    "tests/fixture/test.config.dev.ts",
+    "tests/fixture/.config/test.ts",
+    "src/libs/reconf/core-impl/loader.ts",
+    "src/libs/reconf/core-impl/types.ts",
+    "src/libs/schema/core-impl/args-impl.ts",
+    "src/libs/schema/core-impl/args-utils.ts"
+  ],
+  "ignoreBinaries": ["relidler", "redocs"]
+}

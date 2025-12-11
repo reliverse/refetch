@@ -1,0 +1,26 @@
+.conf*
+.DS_Store
+.env
+.env*
+.eslintcache
+.pnpm-debug.log*
+.vercel
+.vscode
+*.log
+*.tsbuildinfo
+/.next/
+/build
+/node_modules
+/out/
+# env files
+coverage
+dist
+dist-jsr
+dist-libs
+dist-npm
+next-env.d.ts
+node_modules
+npm-debug.log*
+types
+yarn-debug.log*
+yarn-error.log*

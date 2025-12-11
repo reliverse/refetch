@@ -1,0 +1,21 @@
+LICENSES
+
+---
+
+MIT License
+
+Copyright (c) Nazar Kornienko (blefnk), Reliverse
+
+See LICENSE file for full license text.
+
+---
+
+NOTICES
+
+Some parts of this project are based on and significantly adapt:
+- https://github.com/unjs/ofetch/tree/c817be8 – MIT © Pooya Parsa (pi0)
+- https://github.com/unjs/node-fetch-native/tree/01a0d60 – MIT © Pooya Parsa (pi0)
+- https://github.com/node-fetch/node-fetch/tree/8b3320d – MIT © Node Fetch Team (node-fetch)
+- https://github.com/TooTallNate/proxy-agents/tree/536aaa5 – MIT © Nathan Rajlich (TooTallNate)
+- https://github.com/mysticatea/abort-controller/tree/a935d38 – MIT © Toru Nagashima (mysticatea)
+- https://github.com/nodejs/undici/tree/14e62db – MIT © Matteo Collina and Undici contributors (nodejs)
